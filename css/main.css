@@ -1,0 +1,677 @@
+/* Note to self: the color pallette for the site
+
+Reddish pink
+#F53838
+
+pink
+#F29BA2
+
+dark blue
+#131C35
+
+slate gray
+#F0F1F2
+
+orangeish red
+#F23838
+
+Palette included in img file */
+body {
+    color: #131C35;
+    font-family: 'Rubik', sans-serif;
+}
+
+h1,h2,h3,p,a {
+    color: #131C35;
+    font-family: 'Rubik', sans-serif;
+}
+
+.FullSite {
+    max-width: 1440px;  
+    padding: 10px; 
+    align-items: center;
+    margin: 150px auto;
+    margin-top: 30px;
+    box-shadow: 0px 1px 9px white;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+/* Main navigation, Sign In / Up buttons, logo & name */
+
+.ZPlogo {
+    height: 70px;
+    width: 70px;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.main-nav {
+    max-width: 1440px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: #131C35;
+   
+}
+
+.main-nav a:hover:not(.zp ,.Sign_Up_button) {
+    color: #F29BA2;
+    
+}
+
+.main-nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0;
+    font-size: 24px;
+}
+
+.zp {
+    font-size: 28px
+}
+
+
+.sign-nav ul {
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+    
+    
+}
+
+.signin {
+    padding-right: 40px;
+    text-decoration: none;
+    color: #10444F;
+    font-size: 24px;
+}
+
+.Sign_Up_button {
+    background-color: white; 
+    color: #818274; 
+    padding: 10px 20px; 
+    border: solid; 
+    border-radius: 30px; 
+    border-color: #F53838;
+    border-width: 1.5px;
+    text-decoration: none; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: 0.3s ease;
+    font-size: 24px;
+    
+    
+}
+
+.Sign_Up_button:hover {
+    background-color: #F53838; 
+    color: white;
+    box-shadow: 0px 1px 6px #F53838;
+}
+
+
+
+/* navigation ending */
+
+
+
+/* Front page main content */
+.frontpage {
+    max-width: 1440px;
+    max-height: 470px; 
+    min-height: 470px;
+    padding: 10px; 
+    
+    border-radius: 10px;
+    margin-top: 10px;
+    
+    
+}
+
+.frontpage p {
+    padding-bottom: 40px;
+    
+}
+
+.slogan{
+    font-size: 50px;
+    
+}
+
+
+.getstarted {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #F53838;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none; 
+    transition: 0.3s ease;
+    box-shadow: 0px 4px 8px #F53838;
+}
+
+.getstarted:hover{
+    background-color: white;
+    color: #10444F;
+}
+
+.fpcharacter {
+    float: right;
+    margin-top: -20px; 
+    margin-right: 50px;
+}
+/* Front page main content ending */
+
+/* user info section with icons*/
+.userinfo {
+    max-width: 1440px;
+    max-height: 200px;
+    min-height: 200px;
+    border: #10444F;
+    padding: 10px; 
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.userinfo li {
+    font-size: 25px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icons li {
+    height: 55px;
+    width: 55px;
+    list-style-type: none;
+    font-size: 36px;
+    color: #10444F;
+    
+}
+
+/* user info section with icons ends*/
+
+/*features page */
+
+.featurespage {
+    border: #10444F;
+    padding: 10px; 
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+
+.featurespeach h3 {
+    font-size: 36px;
+}
+
+.featurespeach p {
+    font-size: 24px;
+}
+
+.featurespeach li {
+    font-size: 24px;
+    
+}
+
+.featurespeach {
+    float: right;
+    padding-right: 30px;
+}
+
+.featurespeach ul {
+    list-style-type: none; 
+}
+
+.featurespeach ul li:before {
+    content: "\2713"; 
+    color: green; 
+    margin-right: 5px; 
+}
+
+
+
+
+
+/*feature page ends*/
+
+/* choose a plan page*/
+.chooseplan{
+    max-width: 1440px;  
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+    
+}
+
+.chooseplan ul:not(.purchase) {
+    
+    border-radius: 20px;
+}
+.chooseplan li:not(.purchase) {
+    padding: 10px;
+    color: #131C35;
+}
+
+.planintro {
+    max-width: 555px;
+    text-align: center;
+    margin: 0 auto; 
+}
+
+.planintro p{
+    font-size: 16px;
+   
+}
+
+.planintro h3 {
+    font-size: 35px;
+    
+}
+
+.Freeplan {
+    
+    padding: 10px; 
+    box-shadow: 0px 1px 2px #131C35;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+
+.Standardplan {
+    
+    box-shadow: 0px 1px 2px #131C35;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+}
+
+.Premiumplan {
+    
+    box-shadow: 0px 1px 2px #131C35;
+    border-radius: 10px;
+    margin-top: 10px;
+    
+    
+}
+
+
+
+.planselect {  
+    display: grid;
+    grid-template-columns: repeat(3, 330px); 
+    grid-template-rows: 760px;
+    gap: 0px 55px;
+    grid-auto-flow: row;
+    grid-template-areas: ". . .";
+    justify-content: center; 
+}
+  
+  
+
+.Freeplan, .Standardplan, .Premiumplan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.Select {
+    background-color: white; 
+    color: #818274; 
+    padding: 10px 20px; 
+    border: solid; 
+    border-radius: 30px; 
+    border-color: #F53838;
+    border-width: 1.5px;
+    text-decoration: none; 
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: 0.3s ease;
+    font-size: 24px;
+
+}
+
+.Select:hover {
+    background-color: #F53838; 
+    color: white;
+    box-shadow: 0px 1px 6px #F53838;
+}
+
+.purchase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+}
+
+.purchase li:not(.Select) {
+    font-size: 36px;
+    color: #131C35;
+}
+
+
+.VPNLogo {
+    height: 250px;
+    width: 250px;
+}
+/* choose a plan page end*/
+
+/* global network page*/
+.globalnetwork {
+    max-width: 1440px; 
+    padding: 10px; 
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.globalnetworktext {
+text-align: center;
+}
+
+.globalnetworktext h3 {
+    font-size: 35px;
+}
+
+.globalnetworktext p {
+    font-size: 16px;
+}
+
+
+
+/* global network page end*/
+
+/* sponsores */
+.sponsores {
+    padding-left: 150px;
+}
+
+/* customer testomonials page*/
+.trustedbycustomers{
+    max-width: 1440px;   
+    padding: 10px; 
+    border-radius: 10px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    grid-template-rows: 230px;
+    gap: 0px 35px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". . .";
+      margin-left: 60px;
+  }
+
+  .trusttext h2 {
+    font-size:35px ;
+    text-align: center;
+  }
+
+  .trusttext p {
+    font-size:16px ;
+    text-align: center;
+  } 
+
+  
+
+.fivestar {
+    height: 16px;
+    width: 50px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.pfp1 {
+    width: 182px;
+    height: 50px;
+}
+
+.pfp2 {
+   width: 212px;
+   height: 50px;
+}
+.pfp3 {
+   width: 212px;
+   height: 50px;
+}
+.reviews {
+    max-width: 1440px;   
+    padding: 10px; 
+    box-shadow: 0px 1px 2px #131C35;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.reviews p {
+    font-size: 16px;
+    padding: 0px 0px 00px 40px;
+    
+}
+
+
+@keyframes grow {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.35);
+    }
+  }
+  
+  .reviews {
+    background-color: white;
+    box-shadow:0px 1px 4px #F53838 ;
+  }
+  
+  .reviews:hover {
+    animation: grow 0.4s ease;
+    transform: scale(1.35);
+  }
+
+.circle-button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F53838; 
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #F53838;
+   
+}
+
+
+.circle-button::after {
+    content: "\2190"; 
+}
+
+.circle-buttondark {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #F53838; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid #F53838;
+    
+}
+
+
+.circle-buttondark::after {
+    content: "\2192"; 
+}
+
+.circle-button:hover {
+background-color: #F53838;
+color: white;
+}
+
+.circle-buttondark:hover {
+    background-color: white;
+    color: #F53838;
+}
+
+.buttons {
+display: flex;
+justify-content: flex-end;
+margin-right: 100px;
+}
+
+/* customer testomonials page end*/
+
+/* news letter subsciption page*/
+.subscribe:not(a) {
+    max-width: 1440px;   
+    box-shadow: 0px 1px 2px #131C35;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.subscribe h2 {
+    font-size: 36px;
+}
+
+
+
+.Newsletter {
+    display: inline-block;
+    padding: 20px 40px;
+    background-color: #F53838;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none; 
+    transition: 0.3s ease;
+    box-shadow: 0px 4px 8px #F53838;
+    max-width: 250px;
+    max-height: 82px;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.Newsletter:hover {
+    background-color: #131C35; 
+    color: white;
+    box-shadow: 0px 1px 6px #F53838;
+}
+
+.subbutton {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 300px;
+    float: right;
+    padding-top: 40px;
+}
+/* news letter subsciption page end*/
+
+/* footer*/
+.footerlogo {
+    list-style-type: none;
+    display: flex;
+    justify-content:flex-start;
+    margin: 0;
+}
+
+.sociallogos {
+    list-style-type: none;
+    display: flex;
+    justify-content:flex-start;
+    padding: 0;
+    margin: 0;
+}
+
+@keyframes grow {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.2);
+    }
+  }
+  
+  .sociallogos img {
+    transition: transform 0.3s ease;
+  }
+  
+  .sociallogos img:hover {
+    animation: grow 0.3s ease;
+    transform: scale(1.2);
+  }
+
+.misc li {
+    list-style-type: none;
+    padding: 5px;
+    font-size: 24px;
+    
+}
+
+.misc li:hover {
+    color: #F29BA2;
+    text-decoration: underline;
+}
+
+.misc h3 {
+    font-size: 36px;
+}
+
+
+
+.social {
+    height: 125px;
+}
+
+.socialfacebook {
+    height: 150px;
+}
+
+.misc {
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.footerlinks {
+    display: grid;
+    grid-template-columns: repeat(3, auto); 
+    grid-template-rows: auto; 
+    gap: 0px 75px;
+    grid-auto-flow: row;
+    grid-template-areas: ". . ."; 
+}
+
+.self {
+    padding-left: 40px;
+}
+  
+.feet {
+    padding-top: 20px;
+}
+
+/* footer end*/
