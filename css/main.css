@@ -696,12 +696,13 @@ margin-right: 100px;
     padding: 10px 20px 10px 10px;
     margin: 0px;
     font-size: 36px;
-    box-shadow: 0px 1px 6px #131C35;
+    box-shadow: 0px 1px 4px #F53838;
     background-color: #fff;
     border-radius: 20px;
     max-width: 370px;
     text-align: center;
     margin-bottom: 20px;
+    
 }
 
 .LaslesTLDR {
@@ -710,11 +711,81 @@ margin-right: 100px;
     padding: 10px;
     border-radius: 20px;
     font-size: 24px;
-    
+    line-height: 50px;
 }
 
 .Dev {
     max-width: 400px;
     border-radius: 20px;
     box-shadow: 0px 1px 6px #131C35;
+}
+
+
+/*              Help page CSS starts here              */
+
+.main-help {
+    max-width: 1440px; 
+    min-height: 470px;
+    padding: 40px; 
+    box-shadow: 0px 1px 6px #131C35;
+    border-radius: 10px;
+}
+
+.need-help {
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+
+.contactform {
+
+}
+
+.QnA {  display: grid;
+    grid-template-columns: 480px 480px 300px;
+    grid-template-rows: 140px 140px 140px;
+    gap: 10px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+    "General-Info Billing-and-Purchases Features"
+    "Privacy-Policy Tech-Support Compatibility"
+    "Licensing-Agreement Promotions Businesses";
+  }
+  
+  .General-Info { grid-area: General-Info; }
+  
+  .Billing-and-Purchases { grid-area: Billing-and-Purchases; }
+  
+  .Features { grid-area: Features; }
+  
+  .Compatibility { grid-area: Compatibility; }
+  
+  .Tech-Support { grid-area: Tech-Support; }
+  
+  .Privacy-Policy { grid-area: Privacy-Policy; }
+  
+  .Licensing-Agreement { grid-area: Licensing-Agreement; }
+  
+  .Promotions { grid-area: Promotions; }
+  
+  .Businesses { grid-area: Businesses; }
+
+  .QnA div {
+    border-radius: 20px;
+    box-shadow: 0px 1px 6px #131C35;
+    max-width: 410px;
+    min-width: 410px;
+  }
+  
+.QnA p {
+    padding: 10px;
+}
+
+.QnA h3 {
+    padding-left: 10px;
+}
+
+.QnA div:hover {
+    box-shadow: 0px 4px 6px #F53838;
 }
