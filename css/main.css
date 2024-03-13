@@ -889,3 +889,99 @@ margin-right: 100px;
 .QnA div:hover {
     box-shadow: 0px 4px 6px #F53838;
 }
+
+/* Mobile styling for iPhone 13 or 14 */
+@media only screen 
+  and (max-device-width: 414px) /* iPhone 13/13 Pro */
+  and (-webkit-min-device-pixel-ratio: 3) {
+  /* Adjustments for iPhone 13 or 14 */
+  body {
+    font-size: 16px; /* Adjust font size */
+  }
+  
+  .FullSite {
+    margin: 50px auto; /* Adjust margin */
+    padding: 5px; /* Adjust padding */
+  }
+  
+  .main-nav ul {
+    font-size: 18px; /* Adjust font size */
+  }
+  
+  .slogan {
+    font-size: 36px; /* Adjust font size */
+  }
+  
+  .userinfo li {
+    font-size: 20px; /* Adjust font size */
+  }
+  
+  .featurespeach h3 {
+    font-size: 28px; /* Adjust font size */
+  }
+  
+  .featurespeach p {
+    font-size: 18px; /* Adjust font size */
+  }
+  
+  .featurespeach li {
+    font-size: 18px; /* Adjust font size */
+  }
+  
+  .planintro h3 {
+    font-size: 28px; /* Adjust font size */
+  }
+  
+  .purchase li:not(.Select) {
+    font-size: 28px; /* Adjust font size */
+  }
+  
+  .globalnetworktext h3 {
+    font-size: 28px; /* Adjust font size */
+  }
+  
+  .globalnetworktext p {
+    font-size: 18px; /* Adjust font size */
+  }
+  
+  .trusttext h2 {
+    font-size: 28px; /* Adjust font size */
+  }
+  
+  .trusttext p {
+    font-size: 18px; /* Adjust font size */
+  }
+  
+  .reviews p {
+    font-size: 18px; /* Adjust font size */
+    padding: 0px 20px 20px 20px; /* Adjust padding */
+  }
+  
+  .circle-button,
+  .circle-buttondark {
+    width: 50px; /* Adjust button size */
+    height: 50px; /* Adjust button size */
+    font-size: 20px; /* Adjust font size */
+  }
+  
+  .buttons {
+    margin-right: 20px; /* Adjust margin */
+  }
+  
+  .footerlogo h2 {
+    font-size: 24px; /* Adjust font size */
+  }
+  
+  .footerlinks li {
+    font-size: 20px; /* Adjust font size */
+  }
+  
+  .subscribe h2 {
+    font-size: 28px; /* Adjust font size */
+  }
+  
+  .Newsletter {
+    padding: 15px 30px; /* Adjust padding */
+    font-size: 20px; /* Adjust font size */
+  }
+}
