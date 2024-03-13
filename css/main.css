@@ -893,15 +893,19 @@ margin-right: 100px;
 /* Mobile styling for iPhone 13 or 14 */
 @media only screen 
   and (max-device-width: 414px) /* iPhone 13/13 Pro */
-  and (-webkit-min-device-pixel-ratio: 3) {
+  and (-webkit-min-device-pixel-ratio: 3) 
+  
+  
+  {
   /* Adjustments for iPhone 13 or 14 */
   body {
     font-size: 16px; /* Adjust font size */
   }
   
   .FullSite {
-    margin: 50px auto; /* Adjust margin */
+    margin: 10px auto; /* Adjust margin */
     padding: 5px; /* Adjust padding */
+    max-width: 414px;
   }
   
   .main-nav ul {
