@@ -892,12 +892,9 @@ margin-right: 100px;
 
 /* Mobile styling  */
 @media only screen 
-  and (max-device-width: 414px) /* iPhone 13/13 Pro */
-  and (-webkit-min-device-pixel-ratio: 3) 
-  
-  
-  {}
+  and (max-width: 414px) /* iPhone 13/13 Pro */ 
   /* Adjustments */
+  {
   body {
     font-size: 16px; 
   }
@@ -987,4 +984,6 @@ margin-right: 100px;
     padding: 15px 30px; 
     font-size: 20px; 
   }
+}
+  
 }
