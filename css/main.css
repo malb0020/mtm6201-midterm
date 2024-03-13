@@ -923,7 +923,7 @@ margin-right: 100px;
   .FullSite {
     margin: 10px auto; 
     padding: 5px; 
-    max-width: 414px;
+    
   }
   
   .main-nav ul {
@@ -936,6 +936,7 @@ margin-right: 100px;
   
   .userinfo li {
     font-size: 20px; 
+  }
   
   .featurespeach h3 {
     font-size: 28px; 
@@ -1007,4 +1008,3 @@ margin-right: 100px;
   }
 }
   
-}
